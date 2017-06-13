@@ -48,7 +48,7 @@ export var TodoStore = Fluxxor.createStore({
     };
   },
 
-  _nestTodoId: function() {
+  _nextTodoId: function() {
     return ++this.todoId;
   }
 });
